@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Emprego</title>
+</head>
+<body>
+    <h1><img src="img/logoGalo.jpg" width="21%">GaloCego Softwares</h1>
+    <hr>
+    <h2>- Vaga para Desenvolvedor de Sistemas</h2>
+    <fieldset>
+        <center>
+        <legend><h3>Descrição da vaga</h3></legend>
+            Diariamente executa o desenvolvimento de sistemas informatizados adequando-os às necessidades das áreas e clientes visando racionalizar ou automatizar processos e<br/>
+            rotinas de trabalho: recebe a demanda do sistema detalhado pelo Analista
+            determinando as atividades e desenvolve os programas executando o tratamento dos
+            dados,<br/> criando “scripts”, empregando técnicas e linguagens específicas (Java, Delphi,
+            PHP, SQL e outras) visando a aplicação necessária para a coleta dos dados de entrada,</br>
+            processamento e obtenção dos dados de saída desejados. Mantém registro das horas
+            trabalhadas por projeto, para controle do superior e clientes.
+        </center>
+    </fieldset>
+    <center>
+        <h3>Requisitos:</h3>
+        <b>
+            Conhecimento em: <br/>
+            -  Java <br/>
+            -  MySQL <br/>
+            -  PHP <br/>
+            -  Python <br/>
+            -  JavaScript <br/>
+            -  HTML/CSS
+        </b>
+        <h4>Salário: R$ 5,00 </h4>
+        <img src="img/cincao.jpg" width="15%">
+    </center>
+        <form action="http://curvello.com/yoda.php" method="POST">
+            <fieldset>
+                <legend><h3>Formulário da vaga</h3></legend>
+                <strong>
+                <label for="nome">Nome completo:.*</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                <br/><br/>
+                <label for="telefone">Telefone:.............*</label>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                <br/><br/>
+                <label for="email">E-mail:................*</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <br/><br/>
+                <label for="estados">Estado:................*</label>
+                <select name="estados" id="estados" required>
+                    <option value="SP">São Paulo</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="AC">Acre</option>
+                    <option value="OU">Outro</option>
+                </select>
+                <br/><br/>
+                <textarea name = "algo" rows="7" cols="37" placeholder="Algo que queira dizer"></textarea>
+                <br/><br/>
+                <label for="curriculo">Envie seu currículo*</label><br/>
+                <input type="file" name="curriculo" id="curriculo" required>
+                <br/><br/>
+                <input type="submit" value="enviar">
+                </strong>
+            </fieldset>
+
+        </form>
+</body>
+</html>
